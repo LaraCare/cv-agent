@@ -1,0 +1,35 @@
+{
+  "name": "lara-care/cv-agent",
+    "description": "Laravel package to generate CV sections with AI",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "role": "Developer",
+      "name": "Jery Foto",
+      "email": "jeryfoto@gmail.com",
+      "homepage": "https://jery-portal.vrecel.app/"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "LaraCare\\CvAgentObject\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "LaraCare\\CvAgentObject\\Tests\\": "tests/"
+    }
+  },
+  "require": {
+    "php": "^8.1"
+  },
+  "require-dev": {},
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "config": {
+    "sort-packages": true,
+    "preferred-install": "dist",
+    "optimize-autoloader": true
+  }
+}
