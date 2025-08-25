@@ -9,16 +9,27 @@ class CvAgentProvider extends ServiceProvider
 {
     public function register()
     {
-        $this->app->singleton(CvSectionsGenerator::class, function ($app) {
-            return new CvSectionsGenerator();
+        // Bind ton service principal
+        $this->app->singleton('cv-agent', function ($app) {
+            return new CvAgent();
         });
     }
 
     public function boot()
     {
-        // Publier config si besoin
+        // Charger routes si besoin
+        // if (file_exists(__DIR__.'/../routes/web.php')) {
+        //     $this->loadRoutesFrom(__DIR__.'/../routes/web.php');
+        // }
+
+        // Charger migrations si besoin
+        // if (is_dir(__DIR__.'/../database/migrations')) {
+        //     $this->loadMigrationsFrom(__DIR__.'/../database/migrations');
+        // }
+
+        // Publier config
         $this->publishes([
-            __DIR__.'/../config/cv-sections-generator.php' => config_path('cv-sections-generator.php'),
+            __DIR__.'/../../config/cv-agent.php' => config_path('cv-agent.php'),
         ], 'config');
     }
 }

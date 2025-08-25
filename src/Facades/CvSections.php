@@ -1,6 +1,6 @@
 <?php
 
-namespace Laravel\CvAgent\Facades;
+namespace LaraCare\CvAgent\Facades;
 
 use Illuminate\Support\Facades\Facade;
 

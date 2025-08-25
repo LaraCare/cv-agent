@@ -21,6 +21,13 @@
             "LaraCare\\CvAgent\\Tests\\": "tests/"
         }
     },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "LaraCare\\CvAgent\\CvAgentProvider"
+            ]
+        }
+    },
     "require": {
         "php": "^8.1"
     },
