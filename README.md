@@ -35,7 +35,7 @@ Inside, you can configure:
 
 ## 🚀 Usage
 
-```bash
+```php
 Using the Facade
 use LaraCare\CvAgent\Facades\CvSections;
 
