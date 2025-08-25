@@ -35,8 +35,10 @@ Inside, you can configure:
 
 ## 🚀 Usage
 
-```php
 Using the Facade
+
+```php
+
 use LaraCare\CvAgent\Facades\CvSections;
 
 $profile = "IoT Engineer with 2 years of experience, seeking a position in AI";
