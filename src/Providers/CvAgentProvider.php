@@ -3,7 +3,7 @@
 namespace LaraCare\CvAgent\Providers;
 
 use Illuminate\Support\ServiceProvider;
-use LaraCare\CvAgent\Services\CvSectionsGenerator;
+use LaraCare\CvAgent\CvAgent;
 
 class CvAgentProvider extends ServiceProvider
 {
