@@ -11,6 +11,12 @@
             "homepage": "https://jery-portal.vrecel.app/"
         }
     ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/LaraCare/cv-agent"
+        }
+    ],
     "autoload": {
         "psr-4": {
             "LaraCare\\CvAgent\\": "src/"
