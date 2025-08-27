@@ -30,7 +30,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "LaraCare\\CvAgent\\CvAgentProvider"
+                "LaraCare\\CvAgent\\\\CvAgentProvider"
             ]
         }
     },
